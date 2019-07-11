@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DottedLineView">
+        <attr name="strokeColor" format="color" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="startPosition" format="dimension" />
+        <attr name="endPosition" format="dimension" />
+        <attr name="isAnim" format="boolean" />
+        <attr name="dotAdvance" format="dimension" />
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="dashIntervalsOn" format="dimension" />
+        <attr name="dashIntervalsOff" format="dimension" />
+        <attr name="slideDirection">
+            <flag name="start" value="0" />
+            <flag name="end" value="1" />
+        </attr>
+        <attr name="orientation">
+            <flag name="horizontal" value="0" />
+            <flag name="vertical" value="1" />
+        </attr>
+        <attr name="style">
+            <flag name="corner" value="0x001" />
+            <flag name="discrete" value="0x002" />
+            <flag name="dash" value="0x003" />
+            <flag name="dotted" value="0x004" />
+        </attr>
+    </declare-styleable>
+</resources>
