@@ -29,7 +29,7 @@
         app:isAnim="true"
         app:orientation="horizontal"
         app:slideDirection="start"
-        app:strokeColor="@color/red"
+        app:strokeColor="@color/colorSky"
         app:strokeWidth="3px"
         app:style="dotted"
         app:layout_constraintLeft_toRightOf="@id/path_effect_view1"
