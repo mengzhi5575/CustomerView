@@ -1,4 +1,5 @@
 # CustomerView
+
 CustomerView是一个可拓展的自定义View，支持虚线，曲线，点线等视图；
 可通过调节属性来控制线条风格，属性简介如下：
 mStrokeColor   	    //描边颜色
