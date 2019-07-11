@@ -31,20 +31,20 @@ mStyle         	    //图形风格，支持实线，折线，虚线，圆点
 
 <com.jaymz.customerview.view.PathEffectView
 
- android:id="@+id/path_effect_view2"
+   android:id="@+id/path_effect_view2"
+
+   android:layout_width="300px"
+
+   android:layout_height="300px"
+
+   app:dotAdvance="30px"
  
- android:layout_width="300px"
- 
- android:layout_height="300px"
- 
- app:dotAdvance="30px"
- 
- app:isAnim="true"
- 
- app:orientation="horizontal"
- 
- app:slideDirection="start"
- 
- app:strokeWidth="3px"
- 
- app:style="dotted"/>
+   app:isAnim="true"
+
+   app:orientation="horizontal"
+
+   app:slideDirection="start"
+
+   app:strokeWidth="3px"
+
+   app:style="dotted"/>
